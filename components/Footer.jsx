@@ -44,7 +44,7 @@ const Footer = () => (
             Copyright © 2021-2023 Metaverus. All right reserved.
           </p>
           <div className="flex gap-4">
-            {socials.map(social => (
+            {socials.map((social) => (
               <img
                 key={social.name}
                 src={social.url}
