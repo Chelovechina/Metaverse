@@ -1,9 +1,8 @@
 import Head from 'next/head';
-import { Component } from 'react';
 
 import '../styles/globals.css';
 
-const MyApp = ({ Components, pageProps }) => {
+const MyApp = ({ Component, pageProps }) => {
   <>
     <Head>
       <title>Metaversus</title>
